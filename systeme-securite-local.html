@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Système de Sécurité Local - Ahmed Lahouel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .project-detail {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .project-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .project-image {
+            width: 100%;
+            height: 400px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            border-radius: 10px;
+            margin: 2rem 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+        }
+        .project-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 3rem;
+        }
+        .project-info h3 {
+            color: #2c3e50;
+            margin: 2rem 0 1rem 0;
+        }
+        .project-tech {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            height: fit-content;
+        }
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #3498db;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">AL</a>
+            <ul class="nav-links">
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="index.html#projects">PROJETS</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="project-detail">
+        <a href="index.html#projects" class="back-button">
+            <i class="fas fa-arrow-left"></i> RETOUR AUX PROJETS
+        </a>
+
+        <div class="project-header">
+            <h1>Système de Sécurité Local</h1>
+            <p>Contrôle d'accès via clavier matriciel</p>
+        </div>
+
+        <div class="project-image">
+            <i class="fas fa-shield-alt" style="font-size: 4rem;"></i>
+        </div>
+
+        <div class="project-content">
+            <div class="project-info">
+                <h3>Description du Projet</h3>
+                <p>
+                    Conception et implémentation d'un système de sécurité robuste pour le contrôle 
+                    d'accès à une chambre sécurisée. Le système utilise un clavier matriciel pour 
+                    la saisie du code et intègre des mécanismes de sécurité avancés.
+                </p>
+
+                <h3>Fonctionnalités Principales</h3>
+                <ul>
+                    <li>Saisie de code sécurisé via clavier 4x4</li>
+                    <li>Verrouillage automatique après 3 tentatives échouées</li>
+                    <li>Indication LED pour le statut du système</li>
+                    <li>Alarme sonore en cas d'intrusion</li>
+                    <li>Possibilité de changer le code d'accès</li>
+                </ul>
+
+                <h3>Architecture du Système</h3>
+                <p>
+                    Le système repose sur une architecture modulaire avec un microcontrôleur 
+                    central gérant l'interface utilisateur, la logique de sécurité et le 
+                    contrôle du mécanisme de verrouillage.
+                </p>
+
+                <h3>Innovations</h3>
+                <p>
+                    Implémentation d'un algorithme de détection de tentative de forcing 
+                    et d'un système de temporisation intelligent pour prévenir les attaques 
+                    par brute force.
+                </p>
+            </div>
+
+            <div class="project-tech">
+                <h3>Technologies Utilisées</h3>
+                <div class="skill-items">
+                    <span class="skill-item">Arduino Uno</span>
+                    <span class="skill-item">Clavier 4x4</span>
+                    <span class="skill-item">Servomoteur</span>
+                    <span class="skill-item">Buzzer</span>
+                    <span class="skill-item">LED RGB</span>
+                    <span class="skill-item">C++</span>
+                    <span class="skill-item">Électronique</span>
+                </div>
+                <br>
+                <h3>Durée</h3>
+                <p>6 semaines</p>
+
+                <h3 style="margin-top: 2rem;">Statut</h3>
+                <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Complété</p>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2023 Ahmed Lahouel. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>

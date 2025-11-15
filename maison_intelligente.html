@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison Intelligente - Ahmed Lahouel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .project-detail {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .project-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .project-image {
+            width: 100%;
+            height: 400px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 10px;
+            margin: 2rem 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+        }
+        .project-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 3rem;
+        }
+        .project-info h3 {
+            color: #2c3e50;
+            margin: 2rem 0 1rem 0;
+        }
+        .project-tech {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            height: fit-content;
+        }
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #3498db;
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">AL</a>
+            <ul class="nav-links">
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="index.html#projects">PROJETS</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="project-detail">
+        <a href="index.html#projects" class="back-button">
+            <i class="fas fa-arrow-left"></i> RETOUR AUX PROJETS
+        </a>
+
+        <div class="project-header">
+            <h1>Maison Intelligente</h1>
+            <p>Système domotique basé sur STM32 et Bluetooth</p>
+        </div>
+
+        <div class="project-image">
+            <i class="fas fa-home" style="font-size: 4rem;"></i>
+        </div>
+
+        <div class="project-content">
+            <div class="project-info">
+                <h3>Description du Projet</h3>
+                <p>
+                    Développement d'un système domotique complet permettant le contrôle intelligent 
+                    d'une habitation via une interface Bluetooth. Le système intègre plusieurs capteurs 
+                    environnementaux et permet la gestion automatique des équipements domestiques.
+                </p>
+
+                <h3>Fonctionnalités Principales</h3>
+                <ul>
+                    <li>Surveillance en temps réel de la température et de l'humidité</li>
+                    <li>Détection de présence de gaz et de fumée</li>
+                    <li>Détection de pluie pour la fermeture automatique des fenêtres</li>
+                    <li>Contrôle à distance de l'éclairage et des appareils électriques</li>
+                    <li>Interface utilisateur intuitive via application mobile</li>
+                </ul>
+
+                <h3>Défis Techniques</h3>
+                <p>
+                    Intégration de multiples protocoles de communication et gestion de la 
+                    consommation énergétique optimale. Développement d'algorithmes pour 
+                    l'automatisation intelligente basée sur les données des capteurs.
+                </p>
+
+                <h3>Résultats</h3>
+                <p>
+                    Système fonctionnel déployé avec succès, permettant  une amélioration significative 
+                    du confort domestique.
+                </p>
+            </div>
+
+            <div class="project-tech">
+                <h3>Technologies Utilisées</h3>
+                <div class="skill-items">
+                    <span class="skill-item">STM32F407</span>
+                    <span class="skill-item">Bluetooth HC-05</span>
+                    <span class="skill-item">Capteurs DHT11</span>
+                    <span class="skill-item">Capteur MQ-2</span>
+                    <span class="skill-item">Capteur de pluie</span>
+                    <span class="skill-item">Relais 5V</span>
+                    <span class="skill-item">C Embedded</span>
+                    <span class="skill-item">Android Studio</span>
+                </div>
+                <br>
+                <h3 >Durée</h3>
+                <p>2 mois</p>
+
+                <h3 style="margin-top: 2rem;">Statut</h3>
+                <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Complété</p>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2023 Ahmed Lahouel. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
